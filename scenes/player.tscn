@@ -9,7 +9,7 @@ radius = 40.1995
 [node name="CharacterBody2D" type="CharacterBody2D"]
 script = ExtResource("1_g2els")
 
-[node name="HappyBoo" parent="." instance=ExtResource("1_3vyb7")]
+[node name="happy_boo_instance" parent="." instance=ExtResource("1_3vyb7")]
 position = Vector2(2, 31)
 script = null
 

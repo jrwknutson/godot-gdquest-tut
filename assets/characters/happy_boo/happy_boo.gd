@@ -1,9 +1,12 @@
+# happy_boo.gd
+class_name HappyBooClass
+
 extends Node2D
 
+@onready var animation_player: AnimationPlayer = $AnimationPlayer
 
-func play_idle_animation():
-	%AnimationPlayer.play("idle")
+func play_animation():
+    animation_player.play("walk")
 
-
-func play_walk_animation():
-	%AnimationPlayer.play("walk")
+func stop_animation():
+    animation_player.play("idle")
